@@ -1,1 +1,33 @@
-{"info":{"title":"Livi","description":"","version":"1.0.0"},"openapi":"3.0.0"}
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Livi",
+    "description": "",
+    "license": {
+      "name": "GNU AGPLv3",
+      "url": "https://www.gnu.org/licenses/agpl.txt"
+    },
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/device/list": {
+      "get": {
+        "description": "Get list of available devices"
+      },
+      "parameters": [
+        {
+          "name": "size",
+          "in": "query"
+        },
+        {
+          "name": "number",
+          "in": "query"
+        },
+        {
+          "name": "sort",
+          "in": "query"
+        }
+      ]
+    }
+  }
+}
