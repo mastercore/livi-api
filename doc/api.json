@@ -28,6 +28,20 @@
           "in": "query"
         }
       ]
+    },
+    "/api/thing": {
+      "get": {},
+      "post": {},
+      "delete": {},
+      "patch": {}
+    },
+    "/api/thing/list": {
+      "get": {}
+    },
+    "/api/device": {
+      "get": {},
+      "delete": {},
+      "patch": {}
     }
   }
 }
